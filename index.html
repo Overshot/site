@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>EEO</title>
+	</head>
+	<style>
+		body {
+			background-color: black;
+			color: white !important;
+		}
+
+	</style>
+
+	<body>
+		<h1>yeah boi</h1>
+
+
+
+		<script>
+			const string = "dpsaokdpasok"
+			const xc = 1231212312
+			const ob = {
+				name: "José",
+				age: 12,
+			}
+			const ab = [
+				{
+					name: "José",
+					age: 12,
+				},
+				{
+					name: "Maria",
+					age: 13,
+				},
+				{
+					name: "Pedro",
+					age: 15,
+				},
+			]
+
+			console.table(ab)
+			// function soma(a, b) {
+			// 	return a + b
+			// }
+
+			// window.alert(typeof ab)
+
+			// const pinto = soma(35, 987)
+			// window.alert(pinto)
+
+			const msgs = ['ola overshot!', 'ja deu seu bumbum hj?', 'comeu seu lanchinho?', 'vamos brincar :)']
+			// console.log(typeof msgs, msgs.toUpperCase())
+
+			const createMsg = text => {
+				const node = document.createElement("li");
+				const textNode = document.createTextNode(text);
+				node.appendChild(textNode);
+
+				return document.body.append(node);
+			}
+			// ta passando fome
+			msgs.map(
+				(msg, i) => setTimeout(
+					() => createMsg(msg), 3000 * i
+				)
+			)
+			// const meuamigomeucerebroparou = (a, b) => { //sua função <---
+			// 	const a = 1
+			// 	const b = 2
+
+			// 	return a + b
+			// }
+
+			for (let index = 0; index < 999; index++) {
+				console.log('mimimi')
+			}
+
+		</script>
+
+	</body>
+
 </html>
